@@ -4,9 +4,13 @@
 
 This Excel portfolio project analyzes a multi-year global electronics retail dataset. It explores how product list-price sales, estimated gross profit, orders, and units vary by year, country, product category, and month. The interactive dashboard is designed to let a reviewer explore the results with year slicers.
 
+![Dashboard overview](Portfolio%20Screenshots/Dashboard_Overview.png)
+
 ## Dataset
 
 The workbook uses the Global Electronics Retailer CSV tables for sales, products, customers, stores, and exchange rates. The sales table contains 62,884 line items. Each row represents a product line within an order; `Order Number` plus `Line Item` identifies the line, while `Quantity` records units on that line.
+
+**Source:** [Microsoft Global Electronics Retailer dataset, via Maven Analytics](https://status.mavenanalytics.io/data-playground/global-electronics-retailer). The dataset is described as fictitious and listed as Public Domain.
 
 ## Approach and tools
 
